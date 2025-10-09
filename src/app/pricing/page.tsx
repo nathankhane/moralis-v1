@@ -9,7 +9,6 @@ import { PriceDrivers } from "@/components/pricing/PriceDrivers";
 import { ScopeCards } from "@/components/pricing/ScopeCards";
 import { WhyUs } from "@/components/pricing/WhyUs";
 import { Steps } from "@/components/pricing/Steps";
-import { Scheduler } from "@/components/pricing/Scheduler";
 import { FAQ } from "@/components/pricing/FAQ";
 
 export default function PricingPage() {
@@ -45,7 +44,7 @@ export default function PricingPage() {
       <section className="py-16 bg-background" id="quote-section">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           <div ref={schedulerRef}>
-            <Scheduler />
+            {/* Scheduler removed - using contact page instead */}
           </div>
         </div>
       </section>
