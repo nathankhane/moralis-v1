@@ -6,13 +6,13 @@ export function Team() {
     {
       name: "Moodi Odat",
       description: "Former VC Investor who's helped scale two series B start-ups from $10M to $20M ARR. Highly operationally-experienced: Moodi has built automation infrastructure for multiple series A start-ups.",
-      image: "/Founder Pictures/BP-Moodi Headshot-1.jpg",
+      image: "/founders/BP-Moodi Headshot-1.jpg",
       alt: "Moodi Odat, Co-founder"
     },
     {
       name: "Nathan Morales", 
       description: "Former database and UX consultant turned serial founder who specializes in creative branding. He's been a part of multiple database migrations and digital experience projects with Fortune 500 companies.",
-      image: "/Founder Pictures/CG-Nate.JPG",
+      image: "/founders/CG-Nate.JPG",
       alt: "Nathan Morales, Co-founder"
     }
   ];
