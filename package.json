@@ -15,6 +15,7 @@
     "generate:og": "node scripts/generate-og-image.js"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
     "@headlessui/react": "^2.2.4",
     "@heroicons/react": "^2.2.0",
     "@hookform/resolvers": "^5.2.1",

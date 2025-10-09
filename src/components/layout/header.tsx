@@ -7,12 +7,13 @@ import { ModeToggle } from "@/components/ui/mode-toggle";
 import React from "react";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
-import { t } from "@/lib/i18n";
 
 const menuItems = [
-  { name: t('nav.solution'), href: "/solution" },
-  { name: t('nav.pricing'), href: "/pricing" },
-  { name: t('nav.team'), href: "/team" },
+  { name: "Services", href: "#services" },
+  { name: "Process", href: "#process" },
+  { name: "Ethos", href: "#ethos" },
+  { name: "FAQ", href: "#faq" },
+  { name: "Team", href: "#team" },
 ];
 
 export const HeroHeader = () => {
@@ -120,17 +121,10 @@ export const HeroHeader = () => {
               {/* Desktop Right side buttons */}
               <div className="hidden lg:flex items-center gap-3 lg:flex-shrink-0">
                 <Button
-                  variant="ghost"
                   asChild
-                  className="text-muted-foreground hover:text-foreground hover:bg-transparent border border-border px-4 hover:scale-105 hover:shadow-md hover:border-primary/30 transition-all duration-300"
+                  className="bg-primary hover:bg-primary/90 hover:scale-[1.02] transition-all duration-200 hover:shadow-lg text-primary-foreground border-0 px-4"
                 >
-                  <Link href="https://cal.com/bridgenow/discoverycall" target="_blank" rel="noopener noreferrer">Login</Link>
-                </Button>
-                <Button
-                  asChild
-                  className="bg-gradient-to-r from-[#7F5BFF] to-purple-600 hover:from-[#7F5BFF]/90 hover:to-purple-600/90 hover:scale-[1.02] transition-all duration-200 hover:shadow-lg text-white border-0 px-4"
-                >
-                  <Link href="https://cal.com/bridgenow/discoverycall" target="_blank" rel="noopener noreferrer">Sign Up</Link>
+                  <Link href="/contact">Book intro call</Link>
                 </Button>
               </div>
 

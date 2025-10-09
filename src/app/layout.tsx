@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Fraunces } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { HeroHeader } from "@/components/layout/header";
@@ -8,14 +8,16 @@ import { SimpleToggle } from "@/components/ui/mode-toggle";
 import { Toaster } from "@/components/ui/sonner";
 import ErrorBoundary from "@/components/ErrorBoundary";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const viewport: Viewport = {
@@ -27,20 +29,20 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Bridge - Turn expertise into income",
-  description: "Turn expertise into income. Turn user insight into market wins.",
-  metadataBase: new URL('https://trustedapp-demo.vercel.app'),
+  title: "Morálís - Automation with a conscience",
+  description: "We help founders and teams make principled decisions that scale. Morálís blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.",
+  metadataBase: new URL('https://moralis.studio'),
   openGraph: {
-    title: "Bridge - Turn expertise into income",
-    description: "Turn expertise into income. Turn user insight into market wins.",
-    url: 'https://trustedapp-demo.vercel.app',
-    siteName: 'Bridge',
+    title: "Morálís - Automation with a conscience",
+    description: "We help founders and teams make principled decisions that scale. Morálís blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.",
+    url: 'https://moralis.studio',
+    siteName: 'Morálís',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Bridge landing page showing "Turn expertise into income" with purple and green accents on dark background',
+        alt: 'Morálís landing page showing "Automation with a conscience" with deep green accents',
         type: 'image/png',
       },
     ],
@@ -49,16 +51,16 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bridge - Turn expertise into income',
-    description: 'Turn expertise into income. Turn user insight into market wins.',
+    title: 'Morálís - Automation with a conscience',
+    description: 'We help founders and teams make principled decisions that scale. Morálís blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.',
     images: [
       {
         url: '/og-image.png',
-        alt: 'Bridge landing page showing "Turn expertise into income" with purple and green accents on dark background',
+        alt: 'Morálís landing page showing "Automation with a conscience" with deep green accents',
       }
     ],
-    creator: '@trustedapp',
-    site: '@trustedapp',
+    creator: '@moralisstudio',
+    site: '@moralisstudio',
   },
   robots: {
     index: true,
@@ -79,7 +81,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Bridge',
+    title: 'Morálís',
   },
   formatDetection: {
     telephone: false,
@@ -90,10 +92,10 @@ export const metadata: Metadata = {
     'mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-capable': 'yes',
     'apple-mobile-web-app-status-bar-style': 'default',
-    'theme-color': '#FFFFFF',
-    'msapplication-TileColor': '#FFFFFF',
-    'msapplication-navbutton-color': '#FFFFFF',
-    'apple-mobile-web-app-title': 'Bridge',
+    'theme-color': '#FAFAF9',
+    'msapplication-TileColor': '#FAFAF9',
+    'msapplication-navbutton-color': '#FAFAF9',
+    'apple-mobile-web-app-title': 'Morálís',
   },
 };
 
@@ -120,7 +122,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background font-sans antialiased`}
+        className={`${inter.variable} ${fraunces.variable} min-h-screen bg-background font-sans antialiased`}
       >
         <ThemeProvider>
           <ErrorBoundary>
