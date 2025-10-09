@@ -26,13 +26,13 @@ export function FAQ() {
   ];
 
   return (
-    <section id="faq" className="section-mobile-optimized">
-      <div className="container-mobile-optimized">
-        <div className="text-center mb-12">
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+    <section id="faq" className="py-8 sm:py-12 lg:py-16">
+      <div className="container-mobile-optimized px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Frequently asked questions
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto">
             Clear answers to help you make an informed decision
           </p>
         </div>
@@ -40,11 +40,11 @@ export function FAQ() {
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left font-medium">
+              <AccordionItem key={index} value={`item-${index}`} className="border-b py-3 sm:py-4">
+                <AccordionTrigger className="text-left font-medium text-sm sm:text-base hover:no-underline py-2">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
+                <AccordionContent className="text-muted-foreground text-xs sm:text-sm pt-2">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

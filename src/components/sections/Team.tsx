@@ -18,42 +18,42 @@ export function Team() {
   ];
 
   return (
-    <section id="team" className="section-mobile-optimized bg-muted/30">
-      <div className="container-mobile-optimized">
-        <div className="text-center mb-12">
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+    <section id="team" className="py-8 sm:py-12 lg:py-16 bg-muted/30">
+      <div className="container-mobile-optimized px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             The Team
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto">
             Meet the founders behind Morálís
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 max-w-4xl mx-auto">
           {teamMembers.map((member, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
-              <CardContent className="p-8">
+              <CardContent className="p-6 sm:p-8">
                 <div className="text-center">
                   {/* Profile Image */}
-                  <div className="mb-6">
-                    <div className="relative w-32 h-32 mx-auto rounded-full overflow-hidden">
+                  <div className="mb-4 sm:mb-6">
+                    <div className="relative w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-full overflow-hidden">
                       <Image
                         src={member.image}
                         alt={member.alt}
                         fill
                         className="object-cover"
-                        sizes="(max-width: 768px) 128px, 128px"
+                        sizes="(max-width: 640px) 96px, 128px"
                       />
                     </div>
                   </div>
                   
                   {/* Name */}
-                  <h3 className="font-serif text-xl font-semibold text-foreground mb-3">
+                  <h3 className="font-serif text-lg sm:text-xl font-semibold text-foreground mb-3">
                     {member.name}
                   </h3>
                   
                   {/* Description */}
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                     {member.description}
                   </p>
                 </div>

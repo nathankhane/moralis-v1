@@ -35,38 +35,38 @@ export function Process() {
   ];
 
   return (
-    <section id="process" className="section-mobile-optimized">
-      <div className="container-mobile-optimized">
-        <div className="text-center mb-12">
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+    <section id="process" className="py-8 sm:py-12 lg:py-16">
+      <div className="container-mobile-optimized px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Our process
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto">
             A structured approach to principled growth and automation
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
               <Card key={index} className="relative hover:shadow-lg transition-shadow duration-300">
-                <CardHeader className="text-center">
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <Badge className="bg-primary text-primary-foreground text-sm font-bold px-3 py-1">
+                <CardHeader className="text-center p-4 sm:p-6">
+                  <div className="absolute -top-3 sm:-top-4 left-1/2 transform -translate-x-1/2">
+                    <Badge className="bg-primary text-primary-foreground text-xs sm:text-sm font-bold px-2 sm:px-3 py-1">
                       {step.number}
                     </Badge>
                   </div>
-                  <div className="mx-auto mb-4 p-3 bg-primary/10 rounded-full w-fit mt-4">
-                    <Icon className="h-6 w-6 text-primary" />
+                  <div className="mx-auto mb-3 sm:mb-4 p-2 sm:p-3 bg-primary/10 rounded-full w-fit mt-3 sm:mt-4">
+                    <Icon className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                   </div>
-                  <CardTitle className="text-lg font-semibold">{step.title}</CardTitle>
-                  <CardDescription className="text-sm">
+                  <CardTitle className="text-base sm:text-lg font-semibold">{step.title}</CardTitle>
+                  <CardDescription className="text-xs sm:text-sm">
                     {step.description}
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="pt-0">
-                  <p className="text-sm text-muted-foreground">
+                <CardContent className="p-4 sm:p-6 pt-0">
+                  <p className="text-xs sm:text-sm text-muted-foreground">
                     {step.details}
                   </p>
                 </CardContent>
