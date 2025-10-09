@@ -12,13 +12,13 @@ export function Hero() {
             Automation with a{" "}
             <span className="text-primary">conscience</span>.
           </h1>
-          
+
           {/* Subtitle */}
           <p className="text-base sm:text-lg lg:text-xl text-muted-foreground mb-6 sm:mb-10 lg:mb-14 max-w-3xl mx-auto leading-relaxed">
-            We help founders and teams make principled decisions that scale. Morálís blends investment readiness, 
+            We help founders and teams make principled decisions that scale. Morálís blends investment readiness,
             brand positioning, and AI-powered automation—without compromising ethics.
           </p>
-          
+
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12">
             <Button asChild size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 hover:scale-[1.03] shadow-lg transition-all min-h-[44px]">
@@ -33,13 +33,13 @@ export function Hero() {
               </Link>
             </Button>
           </div>
-          
+
           {/* Etymology note */}
           <div className="text-xs sm:text-sm text-muted-foreground italic max-w-2xl mx-auto">
             <p>&ldquo;&apos;of or pertaining to manners, morals, or ethics&apos; — morálís&rdquo;</p>
           </div>
         </div>
-        
+
         {/* Scroll indicator */}
         <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ChevronDown className="h-5 w-5 sm:h-6 sm:w-6 text-muted-foreground" />

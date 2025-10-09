@@ -13,7 +13,7 @@ export function CTA() {
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed">
             Book a no-pressure intro. We&apos;ll be candid either way.
           </p>
-          
+
           <Button asChild size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 hover:scale-[1.03] shadow-lg transition-all min-h-[44px]">
             <Link href="/contact">
               Book intro call

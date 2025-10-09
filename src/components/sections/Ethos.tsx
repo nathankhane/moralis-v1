@@ -39,15 +39,15 @@ export function Ethos() {
           <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-4 sm:mb-6">
             Our ethos
           </h2>
-          
+
           {/* Values chips */}
           <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-6 sm:mb-8">
             {values.map((value, index) => {
               const Icon = value.icon;
               return (
-                <Badge 
-                  key={index} 
-                  variant="secondary" 
+                <Badge
+                  key={index}
+                  variant="secondary"
                   className="px-3 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm font-medium"
                 >
                   <Icon className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
@@ -56,17 +56,17 @@ export function Ethos() {
               );
             })}
           </div>
-          
+
           {/* Main promise */}
           <div className="max-w-4xl mx-auto">
             <p className="text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed mb-8 sm:mb-12">
-              We operate on four promises: <strong>Ethics first</strong>, <strong>Outcomes over vanity</strong>, 
-              <strong> Clear documentation</strong>, and <strong>Sustainable automation</strong>. If we can&apos;t help, 
+              We operate on four promises: <strong>Ethics first</strong>, <strong>Outcomes over vanity</strong>,
+              <strong> Clear documentation</strong>, and <strong>Sustainable automation</strong>. If we can&apos;t help,
               we&apos;ll tell you quickly and point you to someone who can.
             </p>
           </div>
         </div>
-        
+
         {/* Pillars grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {pillars.map((pillar, index) => {

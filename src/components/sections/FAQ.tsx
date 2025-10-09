@@ -36,7 +36,7 @@ export function FAQ() {
             Clear answers to help you make an informed decision
           </p>
         </div>
-        
+
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (

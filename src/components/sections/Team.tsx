@@ -10,7 +10,7 @@ export function Team() {
       alt: "Moodi Odat, Co-founder"
     },
     {
-      name: "Nathan Morales", 
+      name: "Nathan Morales",
       description: "Former database and UX consultant turned serial founder who specializes in creative branding. He's been a part of multiple database migrations and digital experience projects with Fortune 500 companies.",
       image: "/founders/CG-Nate.JPG",
       alt: "Nathan Morales, Co-founder"
@@ -28,7 +28,7 @@ export function Team() {
             Meet the founders behind Morálís
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 max-w-4xl mx-auto">
           {teamMembers.map((member, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
@@ -46,12 +46,12 @@ export function Team() {
                       />
                     </div>
                   </div>
-                  
+
                   {/* Name */}
                   <h3 className="font-serif text-lg sm:text-xl font-semibold text-foreground mb-3">
                     {member.name}
                   </h3>
-                  
+
                   {/* Description */}
                   <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                     {member.description}

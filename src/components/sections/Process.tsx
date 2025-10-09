@@ -45,7 +45,7 @@ export function Process() {
             A structured approach to principled growth and automation
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {steps.map((step, index) => {
             const Icon = step.icon;

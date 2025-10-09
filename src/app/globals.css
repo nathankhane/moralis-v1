@@ -340,11 +340,10 @@
 
   /* Simple gradient text for headings */
   .gradient-text {
-    background: linear-gradient(135deg, 
-      hsl(318 80% 60%), 
-      hsl(270 72% 65%), 
-      hsl(231 84% 70%)
-    );
+    background: linear-gradient(135deg,
+        hsl(318 80% 60%),
+        hsl(270 72% 65%),
+        hsl(231 84% 70%));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

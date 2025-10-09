@@ -18,12 +18,12 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto">
           <Cal
             calLink={process.env.NEXT_PUBLIC_CAL_LINK ?? "moralis/intro"}
-            style={{ 
-              height: "600px", 
+            style={{
+              height: "600px",
               width: "100%",
               minHeight: "400px"
             }}
-            config={{ 
+            config={{
               layout: "month_view",
               theme: "light"
             }}
