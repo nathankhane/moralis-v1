@@ -6,7 +6,7 @@ interface LogoProps {
 
 export const Logo = ({ className }: LogoProps) => (
   <div className={cn("font-serif text-2xl font-bold text-foreground", className)}>
-    Morálís
+    Morális
   </div>
 );
 
