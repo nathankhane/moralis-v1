@@ -44,7 +44,7 @@ async function generateOGImage() {
 
         console.log('✅ OG image generated successfully at:', outputPath);
         console.log('📏 Image dimensions: 1200x630px');
-        console.log('🎨 Using Morálís brand colors and typography');
+        console.log('🎨 Using Morális brand colors and typography');
 
     } catch (error) {
         console.error('❌ Error generating OG image:', error);

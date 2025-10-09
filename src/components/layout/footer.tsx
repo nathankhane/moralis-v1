@@ -5,7 +5,7 @@ export default function FooterSection() {
     <footer className="bg-muted/50 border-t py-8 mt-0">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         <div className="mb-6">
-          <div className="font-serif text-2xl font-bold text-foreground">Morálís</div>
+          <div className="font-serif text-2xl font-bold text-foreground">Morális</div>
         </div>
         
         <div className="mb-6 text-center">
@@ -24,7 +24,7 @@ export default function FooterSection() {
         </div>
         
         <span className="text-muted-foreground text-sm">
-          © {new Date().getFullYear()} Morálís. All rights reserved
+          © {new Date().getFullYear()} Morális. All rights reserved
         </span>
       </div>
     </footer>

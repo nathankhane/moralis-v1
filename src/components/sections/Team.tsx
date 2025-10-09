@@ -25,7 +25,7 @@ export function Team() {
             The Team
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Meet the founders behind Morálís
+            Meet the founders behind Morális
           </p>
         </div>
 

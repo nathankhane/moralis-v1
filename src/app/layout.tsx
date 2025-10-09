@@ -29,20 +29,20 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Morálís - Automation with a conscience",
-  description: "We help founders and teams make principled decisions that scale. Morálís blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.",
+  title: "Morális - Automation with a conscience",
+  description: "We help founders and teams make principled decisions that scale. Morális blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.",
   metadataBase: new URL('https://moralis.studio'),
   openGraph: {
-    title: "Morálís - Automation with a conscience",
-    description: "We help founders and teams make principled decisions that scale. Morálís blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.",
+    title: "Morális - Automation with a conscience",
+    description: "We help founders and teams make principled decisions that scale. Morális blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.",
     url: 'https://moralis.studio',
-    siteName: 'Morálís',
+    siteName: 'Morális',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Morálís landing page showing "Automation with a conscience" with deep green accents',
+        alt: 'Morális landing page showing "Automation with a conscience" with deep green accents',
         type: 'image/png',
       },
     ],
@@ -51,12 +51,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Morálís - Automation with a conscience',
-    description: 'We help founders and teams make principled decisions that scale. Morálís blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.',
+    title: 'Morális - Automation with a conscience',
+    description: 'We help founders and teams make principled decisions that scale. Morális blends investment readiness, brand positioning, and AI-powered automation—without compromising ethics.',
     images: [
       {
         url: '/og-image.png',
-        alt: 'Morálís landing page showing "Automation with a conscience" with deep green accents',
+        alt: 'Morális landing page showing "Automation with a conscience" with deep green accents',
       }
     ],
     creator: '@moralisstudio',
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Morálís',
+    title: 'Morális',
   },
   formatDetection: {
     telephone: false,
@@ -95,7 +95,7 @@ export const metadata: Metadata = {
     'theme-color': '#FAFAF9',
     'msapplication-TileColor': '#FAFAF9',
     'msapplication-navbutton-color': '#FAFAF9',
-    'apple-mobile-web-app-title': 'Morálís',
+    'apple-mobile-web-app-title': 'Morális',
   },
 };
 

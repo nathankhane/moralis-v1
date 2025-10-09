@@ -15,7 +15,7 @@ export function Hero() {
 
           {/* Subtitle */}
           <p className="text-base sm:text-lg lg:text-xl text-muted-foreground mb-6 sm:mb-10 lg:mb-14 max-w-3xl mx-auto leading-relaxed">
-            We help founders and teams make principled decisions that scale. Morálís blends investment readiness,
+            We help founders and teams make principled decisions that scale. Morális blends investment readiness,
             brand positioning, and AI-powered automation—without compromising ethics.
           </p>
 

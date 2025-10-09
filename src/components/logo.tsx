@@ -12,7 +12,7 @@ export const Logo = ({ className }: LogoProps) => (
 
 export const LogoVertical = ({ className }: LogoProps) => (
   <div className={cn("font-serif text-3xl font-bold text-foreground text-center", className)}>
-    <div>Morálís</div>
+    <div>Morális</div>
   </div>
 );
 
