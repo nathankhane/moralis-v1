@@ -1,6 +1,3 @@
-// This file should be deleted if src/components/logo.tsx exists and is correct.
-
-import Image from "next/image";
 import { cn } from "../lib/utils";
 
 interface LogoProps {
@@ -8,71 +5,20 @@ interface LogoProps {
 }
 
 export const Logo = ({ className }: LogoProps) => (
-  <div className={className}>
-    {/* Light theme - Black horizontal logo */}
-    <Image
-      src="/logos/Bridge/Black Logo.svg"
-      alt="Bridge Logo"
-      width={120}
-      height={38}
-      priority
-      className="h-8 w-auto dark:hidden"
-    />
-    {/* Dark theme - White horizontal logo */}
-    <Image
-      src="/logos/Bridge/White Logo.svg"
-      alt="Bridge Logo"
-      width={120}
-      height={38}
-      priority
-      className="h-8 w-auto hidden dark:block"
-    />
+  <div className={cn("font-serif text-2xl font-bold text-foreground", className)}>
+    Morálís
   </div>
 );
 
 export const LogoVertical = ({ className }: LogoProps) => (
-  <div className={className}>
-    {/* Light theme - Black vertical logo */}
-    <Image
-      src="/logos/Bridge/Black Logo Vertical 2.svg"
-      alt="Bridge Logo"
-      width={80}
-      height={65}
-      priority
-      className="h-16 w-auto dark:hidden"
-    />
-    {/* Dark theme - White vertical logo */}
-    <Image
-      src="/logos/Bridge/White Logo Vertical 2.svg"
-      alt="Bridge Logo"
-      width={80}
-      height={65}
-      priority
-      className="h-16 w-auto hidden dark:block"
-    />
+  <div className={cn("font-serif text-3xl font-bold text-foreground text-center", className)}>
+    <div>Morálís</div>
   </div>
 );
 
 export const LogoIcon = ({ className }: LogoProps) => (
-  <div className={className}>
-    {/* Light theme - Black icon (smaller) */}
-    <Image
-      src="/logos/bridge-icon-dark.svg"
-      alt="Bridge Logo"
-      width={24}
-      height={24}
-      priority
-      className="h-6 w-6 dark:hidden"
-    />
-    {/* Dark theme - White icon (smaller) */}
-    <Image
-      src="/logos/bridge-icon-light.svg"
-      alt="Bridge Logo"
-      width={24}
-      height={24}
-      priority
-      className="h-6 w-6 hidden dark:block"
-    />
+  <div className={cn("font-serif text-lg font-bold text-foreground", className)}>
+    M
   </div>
 );
 
