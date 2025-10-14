@@ -1,36 +1,24 @@
 import { cn } from "../lib/utils";
-import Image from "next/image";
 
 interface LogoProps {
   className?: string;
 }
 
 export const Logo = ({ className }: LogoProps) => (
-  <div className={cn("flex items-center gap-2", className)}>
-    <Image
-      src="/logo-moralis.svg"
-      alt="Morális Logo"
-      width={32}
-      height={32}
-      className="w-8 h-8"
-    />
-    <span className="font-serif text-2xl font-bold text-foreground">Morális</span>
+  <div className={cn("font-serif text-2xl font-bold text-foreground", className)}>
+    Morális
   </div>
-);
-
-export const LogoIcon = ({ className }: LogoProps) => (
-  <Image
-    src="/logo-moralis.svg"
-    alt="Morális Logo"
-    width={32}
-    height={32}
-    className={cn("w-8 h-8", className)}
-  />
 );
 
 export const LogoVertical = ({ className }: LogoProps) => (
   <div className={cn("font-serif text-3xl font-bold text-foreground text-center", className)}>
     <div>Morális</div>
+  </div>
+);
+
+export const LogoIcon = ({ className }: LogoProps) => (
+  <div className={cn("font-serif text-lg font-bold text-foreground", className)}>
+    M
   </div>
 );
 
