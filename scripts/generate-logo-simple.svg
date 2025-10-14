@@ -1,0 +1,21 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="30" fill="#0F766E"/>
+  
+  <!-- M letter with accent -->
+  <g transform="translate(30, 30)">
+    <!-- M letter -->
+    <text x="0" y="8" 
+          font-family="serif" 
+          font-size="24" 
+          font-weight="700" 
+          text-anchor="middle" 
+          fill="#FAFAF9"
+          letter-spacing="-0.5px">
+      M
+    </text>
+    
+    <!-- Accent dot for 'á' -->
+    <circle cx="8" cy="-8" r="1.5" fill="#FAFAF9"/>
+  </g>
+</svg>

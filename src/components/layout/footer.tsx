@@ -1,10 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FooterSection() {
   return (
     <footer className="bg-muted/50 border-t py-8 mt-0">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
-        <div className="mb-6">
+        <div className="mb-6 flex items-center gap-3">
+          <Image
+            src="/logo-moralis.svg"
+            alt="Morális Logo"
+            width={40}
+            height={40}
+            className="w-10 h-10"
+          />
           <div className="font-serif text-2xl font-bold text-foreground">Morális</div>
         </div>
         

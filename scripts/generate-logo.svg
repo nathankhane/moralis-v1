@@ -1,0 +1,13 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="30" fill="#0F766E"/>
+  
+  <!-- Inner circle for depth -->
+  <circle cx="30" cy="30" r="26" fill="#0F766E" stroke="#FAFAF9" stroke-width="1"/>
+  
+  <!-- M letter design -->
+  <path d="M18 20 L18 40 L22 40 L22 26 L26 26 L26 40 L30 40 L30 26 L34 26 L34 40 L38 40 L38 20 L34 20 L34 22 L30 22 L30 20 L26 20 L26 22 L22 22 L22 20 Z" fill="#FAFAF9"/>
+  
+  <!-- Accent dot for the 'á' accent -->
+  <circle cx="36" cy="18" r="1.5" fill="#FAFAF9"/>
+</svg>
